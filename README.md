@@ -1,2 +1,2 @@
-# Encontre-Elas
+# Encontre Elas
 Repositório do Projeto Encontra Elas

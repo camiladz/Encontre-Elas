@@ -1,4 +1,4 @@
-import CardImage from '../../assets/card1.svg';
+import CardImage from '../../../assets/card1.svg';
 
 import './index.scss';
 

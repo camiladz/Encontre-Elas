@@ -1,14 +1,19 @@
 import './App.css'
-import { MainContent } from './components/main'
+import { Header } from './components/header'
 import { Sidebar } from './components/sidebar'
+import { Home } from './pages/home'
 
 function App() {
 
   return (
     <div className='main'>
       <Sidebar />
-      <MainContent />
+      <div className='headerAndContent'>
+        <Header />
+        <Home />
+      </div>
     </div>
+
   )
 }
 

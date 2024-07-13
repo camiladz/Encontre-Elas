@@ -80,3 +80,7 @@ img {
 .main {
 	display: flex;
 }
+
+.headerAndContent {
+    width: 100%;
+}

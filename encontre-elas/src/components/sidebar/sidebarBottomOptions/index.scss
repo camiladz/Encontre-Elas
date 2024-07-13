@@ -1,0 +1,26 @@
+.sidebar__bottom {
+    margin-top: 358px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bottom__option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: none;
+    width: 236pxpx;
+    height: 46px;
+    padding: 8px 11px;
+
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6F38DD;
+
+    &:hover {
+        background: #6F38DD26;
+        border: none;
+    }
+}

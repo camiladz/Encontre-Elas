@@ -1,17 +1,14 @@
-import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import  { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./index.scss";
 
 export const CreateAccount = () => {
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
-  const [showSignUp, setShowSignUp] = useState(false);
   const [step, setStep] = useState(1);
   const navigate = useNavigate();
 
-  const handleSignUpClick = () => {
-    setShowSignUp(true);
-  };
+
 
   const handleNextClick = () => {
     setStep(step + 1);

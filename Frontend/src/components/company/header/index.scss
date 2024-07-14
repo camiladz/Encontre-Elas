@@ -1,0 +1,49 @@
+.company__header {
+    display: flex;
+    gap: 51px;
+    margin: 40px 0 0 24px;
+}
+
+.companyCard__info {
+    border: 1px solid #D4C0FD;
+    width: 346px;
+    height: 174px;
+    padding: 16px 0px 0px 0px;
+    justify-content: space-between;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    padding: 24px;
+    background: #F8F5FF;
+}
+
+.companyCard__info h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #3C3C44;   
+    display: flex;
+    align-items: center;    
+    gap: 8px; 
+    white-space: nowrap;
+}
+
+.companyCard__info > div {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.companyCard__info span {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #3C3C44;
+}
+
+.companyCard__info svg {
+    width: 88px;
+    height: 88px;
+}

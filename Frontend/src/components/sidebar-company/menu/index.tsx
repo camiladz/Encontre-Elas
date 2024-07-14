@@ -1,10 +1,9 @@
 import { useState } from "react";
 import "./index.scss";
-import TrilhaIcon from "../../../assets/trilha-icon.svg";
 import PainelIcon from "../../../assets/painel-icon.svg";
-import MentoriaIcon from "../../../assets/mentoria-icon.svg";
-import PlanejamentoIcon from "../../../assets/planjemento-icon.svg";
-import EstatisticaIcon from "../../../assets/estatisticas-icon.svg";
+import PackageIcon from '../../../assets/package-icon.svg';
+import FinanceIcon from '../../../assets/finance-icon.svg';
+import AnalyticsIcon from '../../../assets/analytics-icon.svg';
 import { useChangePageContent } from "../../../hooks/useChangePageContext";
 
 export const MenusideBar = () => {
@@ -14,32 +13,20 @@ export const MenusideBar = () => {
   const MenuOptions = [
     {
       image: PainelIcon,
-      title: "Painel",
+      title: "Dashboard",
     },
     {
-      image: TrilhaIcon,
-      title: "Trilhas",
+      image: PackageIcon,
+      title: "Pacotes",
     },
     {
-      image: MentoriaIcon,
-      title: "Mentorias",
+      image: FinanceIcon,
+      title: "Financeiros",
     },
     {
-      image: PlanejamentoIcon,
-      title: "Planejamento",
-    },
-    {
-      image: EstatisticaIcon,
-      title: "Estatísticas",
-    },
-    {
-      image: PainelIcon,
-      title: "Simulador de Entrevista",
-    },
-    {
-      image: PainelIcon,
-      title: "Programa de Benefícios",
-    },
+      image: AnalyticsIcon,
+      title: "Relatórios",
+    }
   ];
   const handleToggleContent = () => {
     toggleContent();

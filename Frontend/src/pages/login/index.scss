@@ -1,0 +1,123 @@
+.loginContent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 80px;
+}
+
+.login-background {
+    height: 100vh;
+    width: 784px;
+    object-fit: cover;
+}
+
+.formContent {
+    background: #D4C0FD;
+}
+
+.formContent__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #6F38DD;
+}
+
+.formContent {
+    width: 556px;
+    height: 530px;
+    padding: 32px;
+    border-radius: 32px;
+    border: 2px solid #6F38DD;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #6F38DD;
+}
+
+.form-group input {
+    border: 1px solid #6F38DD;
+    width: 100%;
+    border-radius: 16px;
+    height: 48px;
+    padding: 0 16px;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+form {
+    width: 100%;
+}
+
+.submit__button--content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit__button {
+    background: #6F38DD;
+    width: 215px;
+    height: 52px;
+    padding: 8px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #F8F5FF;
+    margin-top: 48px;
+}
+
+.creatAccount__button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.creatAccount__button a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; 
+    color: #6F38DD;
+    text-decoration: underline;
+}
+
+.creatAccount__button span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #3C3C44;
+    cursor: pointer;
+}
+
+.formMainContent {
+    gap: 8px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

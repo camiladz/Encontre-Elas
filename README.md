@@ -1,2 +1,3 @@
-# Encontre Elas
-Repositório do Projeto Encontra Elas
+# Encontre elas
+
+## Repositório do Projeto da equipe 10.

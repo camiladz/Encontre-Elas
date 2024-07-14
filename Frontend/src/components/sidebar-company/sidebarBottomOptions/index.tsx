@@ -5,7 +5,7 @@ import SettingsIcon from '../../../assets/settings-icon.svg'
 export const SidebarBottomoptions = () => {
     
     return (
-        <div className='sidebar__bottom'>
+        <div className='sidebarCompany__bottom'>
             <button className='bottom__option'>
                 <img src={ChatIcon} />
                 Mensagens

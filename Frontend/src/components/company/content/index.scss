@@ -1,0 +1,91 @@
+.companyContent__student {
+    border: 1px solid #D4C0FD;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 1140px;
+    margin: 40px 0 0 24px;
+}
+
+.company__content--header {
+    display: flex;
+    border-bottom: 1px solid #D4C0FD;
+    padding-bottom: 16px;
+    justify-content: space-between;
+}
+
+.studentInfo__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.studentInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.studentInfo__name {
+    width: 118px;
+    color: #3C3C44;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+.studentInfo__courseName {
+    width: 260px;
+    color: #3C3C44;
+    font-size: 12px;
+}
+
+.studentInfo__hoursStudied {
+    width: 146px;
+    color: #3C3C44;
+    font-size: 12px;
+}
+
+.studentInfo__grade {
+    width: 100px;
+    color: #3C3C44;
+    font-size: 12px;
+}
+
+.studentInfo__frequency {
+    color: #3C3C44;
+    font-size: 12px;
+}
+
+.studentInfo__student {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C44;
+    width: 158px;
+}
+
+.studentInfo__trail {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C44;
+    width: 260px;
+}
+
+.studentInfo__hours {
+    width: 146px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C44;
+}
+
+.studentInfo__result {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C44;
+    width: 220px;
+}
+
+.studentInfo__frequencyPerWeek {
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C44;
+}

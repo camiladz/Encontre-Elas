@@ -1,11 +1,29 @@
+.mentoringCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D4C0FD;
+    border-radius: 8px;
+    background: #F8F5FF;
+    padding: 16px;
+    max-width: 1077px;
+}
 .mentoringCard__header {
     display: flex;
     gap: 32.5px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #D4C0FD;
 }
 
 .mentoringInfoContent {
     display: flex;
-    gap: 32.5px
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.mentoringInfos {
+    display: flex;
+    gap: 32.5px; 
 }
 
 .mentoringInfoContent  span {

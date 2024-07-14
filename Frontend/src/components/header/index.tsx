@@ -2,7 +2,10 @@ import UserIcon from '../../assets/user-icon.svg';
 import UserPoints from '../../assets/points-icon.svg'
 import './indesx.scss'
 
-export const Header = () => {
+type Props = {
+    userName: string
+}
+export const Header = ({userName}: Props) => {
     
     return (
         <div className='header'>
@@ -15,7 +18,7 @@ export const Header = () => {
             <div className='user__info'>
                 <button className='user__info-button'>
                     <img src={UserIcon} />
-                    Gabrielle
+                    {userName}
                 </button>
             </div>
         </div>

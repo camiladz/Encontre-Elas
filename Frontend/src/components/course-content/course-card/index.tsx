@@ -1,18 +1,17 @@
-import CardImage from '../../../assets/card1.svg';
-
 import './index.scss';
 
 type Props = {
     title: string,
     flag: string,
     progress: number,
-    image?: string
+    image?: string,
+    description: string
 }
-export const CourseCard = ({ title, flag, progress }: Props) => {
+export const CourseCard = ({ title, flag, progress, image, description }: Props) => {
     return (
         <div className='courseCard'>
             <div className='imageAndFlag'>
-                <img src={CardImage} className='card__image' />
+                <img src={image} className='card__image' />
                 <span className='course__flag'>
                     {flag}
                 </span>
@@ -22,7 +21,7 @@ export const CourseCard = ({ title, flag, progress }: Props) => {
                     {title}
                 </h2>
                 <span className='course__description'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                {description}
                 </span>
             </div>
             <div className="progress-wrapper">
